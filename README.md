@@ -25,9 +25,6 @@ webapp-on-gcp/
 │ └── package.json
 │── README.md
 
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Files Overview  
