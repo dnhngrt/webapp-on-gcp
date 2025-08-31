@@ -75,12 +75,12 @@ http://<vm_external_ip>:8080
 ```
 
 🛠️ Technologies Used
-Terraform
-Google Cloud Platform (GCP)
-Docker
-Node.js
+- **Terraform**
+- **Google Cloud Platform (GCP)**
+- **Docker**
+- **Node.js**
 
 👨‍💻 Author
-Name: Denhaningrat Alensana
-LinkedIn: https://www.linkedin.com/in/dnhngrt/
-GitHub: dnhngrt
+- **Name: Denhaningrat Alensana**
+- **LinkedIn: https://www.linkedin.com/in/dnhngrt/**
+- **GitHub: dnhngrt**
