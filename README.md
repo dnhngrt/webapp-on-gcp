@@ -40,23 +40,28 @@ webapp-on-gcp/
 
 ## 🚀 How to Run  
 
-1. Clone repository  
+1. Clone repository 
+```text 
 git clone https://github.com/<your-username>/webapp-on-gcp.git
 cd webapp-on-gcp
-
+```
 2. Initialize Terraform
+```text
 terraform init
-
+```
 3. Preview changes
+```text
 terraform plan
-
+```
 4. Apply configuration
+```text
 terraform apply
-
+```
 5. Deploy the application
 SSH into your VM:
+```text
 gcloud compute ssh webapp-vm --zone=us-central1-a
-
+```
 Clone repo & build Docker image:
 ```text
 git clone https://github.com/<your-username>/webapp-on-gcp.git
@@ -65,7 +70,9 @@ docker build -t webapp:1.0 .
 docker run -d -p 8080:8080 webapp:1.0
 ```
 Access in browser:
+```text
 http://<vm_external_ip>:8080
+```
 
 🛠️ Technologies Used
 Terraform
