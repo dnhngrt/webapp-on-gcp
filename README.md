@@ -14,6 +14,7 @@ This project demonstrates **Infrastructure as Code (IaC)** using **Terraform** t
 ---
 
 ## 📂 Project Structure
+```text
 webapp-on-gcp/
 │── main.tf
 │── variables.tf
